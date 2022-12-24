@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  height: 167px !important;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  height: 350px;
+  display: flex;
+  background-color: #fff;
+  gap: 5px;
+}
+.box {
+  width: 138px;
+  height: 167px;
+  background-color: #D9D9D9;
+}
+.box:nth-child(1){
+    position: relative;
+    top: 80px;
+}
+.box:nth-child(2){
+    position: relative;
+    top: 40px;
+}
